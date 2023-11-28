@@ -1,0 +1,18 @@
+.page-success {
+  .row-login {
+    // 75vh = 75 itu persennya, vh adalah view per height. Jadi kaya 75% dari jarak antara atas dengan bawah di web dalam viewport
+    min-height: 75vh;
+  }
+
+  .section-success {
+    font-size: 28px;
+    font-weight: 200;
+    color: #0c0d36;
+    margin-top: 0;
+  }
+
+  .btn-signup {
+    @include button-variant(#f3f3f3, transparent);
+    color: #bbbbbb;
+  }
+}
